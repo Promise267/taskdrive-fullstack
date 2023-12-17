@@ -29,7 +29,7 @@
     "eject": "react-scripts eject",
     "serverStart": "node server.js"
   },
-  "proxy": "http://localhost:5000",
+  "proxy": "http://ec2-3-90-45-205.compute-1.amazonaws.com:5000/",
   "eslintConfig": {
     "extends": [
       "react-app",
