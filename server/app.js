@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const cardRouter = require("./routes/card");
 const collectionRouter = require("./routes/collection");
-const PORT = process.env.URI || 5000
+const PORT = 5000
 
 mongoose.connect(process.env.URI);
 
