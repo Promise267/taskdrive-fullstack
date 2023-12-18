@@ -11,7 +11,7 @@ mongoose.connect(process.env.URI);
 const app = express();
 
 app.use((req, res, next) => {
-    res.setHeader("Access-Control-Allow-Origin", "http://ec2-3-90-45-205.compute-1.amazonaws.com:3000/");
+    res.setHeader("Access-Control-Allow-Origin", "http://ec2-44-221-181-203.compute-1.amazonaws.com:3000/");
     res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE");
     res.setHeader("Access-Control-Allow-Headers", "Content-Type");
     next();
