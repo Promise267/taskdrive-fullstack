@@ -15,17 +15,22 @@ TaskDrive is a simple note-taking application built with the MERN stack and host
    ```bash
    git clone https://github.com/your-username/taskdrive.git
 
-Install dependencies and set up MongoDB:
-  cd server
-  npm install
-  cd ../client
-  npm install
+2. **Install dependencies and set up MongoDB:**
+   ```bash
+   cd server
+   npm install
+   cd client
+   npm install
 
-Create a .env file in the server directory with your MongoDB URI:
-  MONGO_URI=your-mongodb-uri
-  
-Start the development server:
-  cd server
-  npm start
-  cd ../client
-  npm start
+3. **Create a .env file in the server directory with your MongoDB URI:**
+   ```bash
+   MONGO_URI=the-uri
+   
+   
+5. **Start the development server:**
+   ```bash
+   cd server
+   nodemon app.js
+   cd client
+   npm run dev
+   
