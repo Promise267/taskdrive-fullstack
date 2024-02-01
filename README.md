@@ -14,7 +14,6 @@ TaskDrive is a simple note-taking application built with the MERN stack and host
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/taskdrive.git
-   cd taskdrive
 
 Install dependencies and set up MongoDB:
   cd server
